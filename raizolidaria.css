@@ -66,3 +66,97 @@ button{
     font-size: 12px;
     font-family: "Roboto", sans-serif;
 }
+
+/*Inicio da seção de valores*/
+
+.container-valores{
+    position: relative;
+    z-index: 1;
+}
+.container-valores::before {
+
+    content: "";
+    background-image: url(imagens/logoraizessolidaria.png);
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.2; 
+    background-attachment: fixed;
+    
+}
+
+.missao{
+    display: flex;
+    margin: 30px ;
+    max-width: 90%;
+    gap: 10px;
+    
+}
+.quad1{
+    width: 30px;
+    height: 30px;
+    background-color:#1E88E5 ;
+    border-radius: 5px;
+}
+.missao-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.missao-txt h2{
+    font-family: "Poppins", sans-serif;
+}
+.missao-txt p{
+    font-family: "Roboto", sans-serif;    
+}
+
+.visao{
+    display: flex;
+    margin: 30px;
+    max-width: 90%;
+    gap: 10px;
+}
+.quad2{
+    width: 30px;
+    height: 30px;
+    background-color:#43A047 ;
+    border-radius: 5px;
+}
+.visao-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.visao-txt h2{
+    font-family: "Poppins", sans-serif;
+}
+.visao-txt p{
+    font-family: "Roboto", sans-serif;
+}
+.valores{
+    display: flex;
+    margin: 30px;
+    max-width: 90%;
+    gap: 10px;
+}
+.quad3{
+    width: 30px;
+    height: 30px;
+    background-color:#FB8C00 ;
+    border-radius: 5px;
+}
+.valores-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.valores-txt h2{
+    font-family: "Poppins", sans-serif;
+}
+.valores-txt p{
+    font-family: "Roboto", sans-serif;
+}
+/*Final da seção valores*/
