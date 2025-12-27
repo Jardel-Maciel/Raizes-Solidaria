@@ -21,3 +21,30 @@ document.addEventListener("DOMContentLoaded", () => {
   cardsImpacto.forEach(card => observerImpacto.observe(card));
 
 });
+
+// === FORMULÁRIO DE VOLUNTÁRIO ===
+// === ALERTA DE SUCESSO DO FORMULÁRIO ===
+document.addEventListener("DOMContentLoaded", function () {
+
+    const form = document.getElementById("form-voluntario");
+    const alerta = document.getElementById("alerta-sucesso");
+    const fechar = document.getElementById("fechar-alerta");
+
+    if (form) {
+        form.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            // Limpa formulário
+            form.reset();
+
+            // Exibe alerta
+            alerta.style.display = "flex";
+        });
+    }
+
+    fechar.addEventListener("click", function () {
+        alerta.style.display = "none";
+    });
+
+});
+
