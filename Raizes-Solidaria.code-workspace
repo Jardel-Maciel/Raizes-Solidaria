@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Raizes-Solidaria",
+			"path": "."
+		},
+		{
+			"name": "ProjetoRaizesSolidaria",
+			"path": "D:/ProjetoRaizesSolidaria"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Raizes-Solidaria"
+	}
+}
